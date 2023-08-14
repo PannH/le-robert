@@ -1,0 +1,29 @@
+{
+  "name": "le-robert",
+  "version": "1.0.0-dev",
+  "description": "A library to scrap data from the French dictionary Le Robert",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PannH/le-robert.git"
+  },
+  "keywords": [
+    "a"
+  ],
+  "author": "PannH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PannH/le-robert/issues"
+  },
+  "homepage": "https://github.com/PannH/le-robert#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.3"
+  }
+}
