@@ -1,6 +1,6 @@
 {
    "name": "le-robert",
-   "version": "1.0.0-dev",
+   "version": "1.0.0",
    "description": "A library to scrap data from the French dictionary Le Robert",
    "main": "dist/index.js",
    "scripts": {
