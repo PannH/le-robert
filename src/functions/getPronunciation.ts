@@ -14,7 +14,7 @@ export default async function getPronunciation(wordQuery: string): Promise<Pronu
 
       await browser.close();
 
-      throw new Error(`No definitions found for "${wordQuery}"`);
+      throw new Error(`No pronunciation found for "${wordQuery}"`);
 
    }
 
