@@ -1,5 +1,5 @@
 # 📕 Le Robert
-This library gives you access to French words data by scraping them from the dictionary Le Robert, one of the most famous French dictionaries.
+This library gives you access to French words data by scraping them from the dictionary Le Robert, one of the most famous French dictionaries, using [Puppeteer](https://pptr.dev/).
 
 # 📥 Installation
 ### NPM
