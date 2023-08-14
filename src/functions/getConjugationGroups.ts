@@ -81,6 +81,8 @@ export default async function getConjugationGroups(verbQuery: string): Promise<C
 
    }
 
+   await browser.close();
+
    return conjugationGroups;
 
 }
