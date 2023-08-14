@@ -23,16 +23,16 @@ export default async function getDefinitionGroups(wordQuery: string): Promise<De
    
    for (const definitionBlock of await page.$$('#definitions > .b')) {
 
-      const category = await getElementProperty(
+      const category = await getElementProperty<Element, string>(
          await definitionBlock.$('.d_cat'),
          'textContent'
-      ) as string;
+      );
 
       const definitions: Definition[] = [];
 
       for (const definitionElement of await definitionBlock.$$('.d_dfn')) {
 
-         const definition = await getElementProperty(definitionElement, 'textContent') as string;
+         const definition = await getElementProperty<Element, string>(definitionElement, 'textContent');
 
          const { examples, context } = await definitionElement.evaluate((element) => {
 
