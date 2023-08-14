@@ -52,7 +52,7 @@ export default async function getDefinitionGroups(wordQuery: string): Promise<De
                      break;
 
                   case 'd_mta':
-                     context = childElement.textContent;
+                     context = childElement.textContent?.toLowerCase();
                      break;
 
                }
