@@ -74,10 +74,11 @@ export default async function getDefinitionGroups(wordQuery: string): Promise<De
 
       }
 
-      definitionGroups.push({
-         category,
-         definitions
-      });
+      if (definitions.length)
+         definitionGroups.push({
+            category,
+            definitions
+         });
 
    }
 
