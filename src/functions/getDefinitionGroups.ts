@@ -82,6 +82,8 @@ export default async function getDefinitionGroups(wordQuery: string): Promise<De
 
    }
 
+   await browser.close();
+
    return definitionGroups;
 
 }
