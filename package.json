@@ -1,7 +1,7 @@
 {
    "name": "le-robert",
    "version": "1.0.0",
-   "description": "A library to scrap data from the French dictionary Le Robert",
+   "description": "A library to scrape data from the French dictionary Le Robert",
    "main": "dist/index.js",
    "scripts": {
       "build": "npx tsc"
