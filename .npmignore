@@ -1,0 +1,9 @@
+# Node
+node_modules/
+package-lock.json
+
+# Source
+src/
+
+# TS Config
+tsconfig.json
